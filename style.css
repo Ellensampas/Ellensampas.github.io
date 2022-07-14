@@ -1,0 +1,71 @@
+body {
+    background: hsla(309, 75%, 64%, 1);
+background: linear-gradient(90deg, hsla(309, 75%, 64%, 1) 1%, hsla(309, 75%, 72%, 1) 13%, hsla(324, 86%, 72%, 1) 31%, hsla(324, 88%, 84%, 1) 58%);
+background: -moz-linear-gradient(90deg, hsla(309, 75%, 64%, 1) 1%, hsla(309, 75%, 72%, 1) 13%, hsla(324, 86%, 72%, 1) 31%, hsla(324, 88%, 84%, 1) 58%);
+background: -webkit-linear-gradient(90deg, hsla(309, 75%, 64%, 1) 1%, hsla(309, 75%, 72%, 1) 13%, hsla(324, 86%, 72%, 1) 31%, hsla(324, 88%, 84%, 1) 58%);
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#e85dd3", endColorstr="#ed80dd", GradientType=1 );
+}
+h1 {
+    font-family: monospace;
+}
+#Ellen {
+    border-radius: 100%; 
+}
+#Menu {
+margin-inline: 30%;
+}
+.conteudo {
+    display: table;
+    margin-top: 2%;
+    margin-left: 15%;
+    text-align: left;
+}
+.imagem {
+    display: table-cell;
+    float: center;
+}
+.texto {
+    display: table-cell;
+    float: right;
+    width: 300px;
+    margin-top: 20%;
+    text-align: center;
+}
+.Nome {
+    display: table-cell;
+    float: left;
+    font-family: monospace;
+    font-size:  120%;
+}
+#button1 {
+    background-color: aqua;
+    border-color:none;
+    color: black;
+    padding: 10px 16px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#button2 {
+    background-color: aqua;
+    border-color: none;
+    color: black;
+    padding: 10px 16px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#button3 {
+    background-color: aqua;
+    border-color: none;
+    color: black;
+    padding: 10px 16px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#button4 {
+    background-color: aqua;
+    border-color: none;
+    color: black;
+    padding: 10px 16px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
