@@ -1,71 +1,43 @@
-body {
-    background: hsla(309, 75%, 64%, 1);
-background: linear-gradient(90deg, hsla(309, 75%, 64%, 1) 1%, hsla(309, 75%, 72%, 1) 13%, hsla(324, 86%, 72%, 1) 31%, hsla(324, 88%, 84%, 1) 58%);
-background: -moz-linear-gradient(90deg, hsla(309, 75%, 64%, 1) 1%, hsla(309, 75%, 72%, 1) 13%, hsla(324, 86%, 72%, 1) 31%, hsla(324, 88%, 84%, 1) 58%);
-background: -webkit-linear-gradient(90deg, hsla(309, 75%, 64%, 1) 1%, hsla(309, 75%, 72%, 1) 13%, hsla(324, 86%, 72%, 1) 31%, hsla(324, 88%, 84%, 1) 58%);
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#e85dd3", endColorstr="#ed80dd", GradientType=1 );
+:root{
+    background-color: #E6B1DE;
 }
-h1 {
-    font-family: monospace;
+
+
+*{
+    margin: 0;
+    padding: 0;
 }
-#Ellen {
-    border-radius: 100%; 
+#header{
+ 
+
 }
-#Menu {
-margin-inline: 30%;
+.menu{
+    width: 100%;
+    height: 50%;
+    background-color: #c09aea;
+    font-family: 'Courier New', Courier, monospace;
 }
-.conteudo {
-    display: table;
-    margin-top: 2%;
-    margin-left: 15%;
-    text-align: left;
+.menu ul{
+    list-style: none;
+    padding-left: 70%;
 }
-.imagem {
-    display: table-cell;
-    float: center;
-}
-.texto {
-    display: table-cell;
-    float: right;
-    width: 300px;
-    margin-top: 20%;
-    text-align: center;
-}
-.Nome {
-    display: table-cell;
+.menu ul li{
+    width: 150px;
     float: left;
-    font-family: monospace;
-    font-size:  120%;
+ }
+ #conteudo-principal {
+ }
+#texto-direito{
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10%;
+    text-align: center;
+    color: ;
 }
-#button1 {
-    background-color: aqua;
-    border-color:none;
-    color: black;
-    padding: 10px 16px;
-    border-radius: 12px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+#imagem {
+    border-radius: 50% 25%;
 }
-#button2 {
-    background-color: aqua;
-    border-color: none;
-    color: black;
-    padding: 10px 16px;
-    border-radius: 12px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-#button3 {
-    background-color: aqua;
-    border-color: none;
-    color: black;
-    padding: 10px 16px;
-    border-radius: 12px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-#button4 {
-    background-color: aqua;
-    border-color: none;
-    color: black;
-    padding: 10px 16px;
-    border-radius: 12px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+a{
+        text-decoration: none;
+    }
+
+   
