@@ -7,37 +7,45 @@
     margin: 0;
     padding: 0;
 }
-#header{
- 
-
-}
-.menu{
-    width: 100%;
-    height: 50%;
-    background-color: #c09aea;
-    font-family: 'Courier New', Courier, monospace;
-}
 .menu ul{
-    list-style: none;
-    padding-left: 70%;
-}
-.menu ul li{
-    width: 150px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #996791;
+  }
+  li{
     float: left;
+  }
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+  background-color: skyblue;
  }
- #conteudo-principal {
- }
-#texto-direito{
+#name{
     font-family: 'Courier New', Courier, monospace;
     padding-top: 10%;
     text-align: center;
-    color: ;
+    padding-bottom: 2%;
 }
-#imagem {
-    border-radius: 50% 25%;
+img{
+    border-radius:50px;
+}
+#foto-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 a{
         text-decoration: none;
     }
-
-   
+#text1 {
+    margin-left: 2%;
+    text-align: center;
+}
