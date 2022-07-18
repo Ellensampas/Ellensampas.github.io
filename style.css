@@ -1,5 +1,16 @@
 :root{
-    background-color: #E6B1DE;
+    background-image: url(./imagens/css-particles-background.gif);
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    position:fixed;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-size: cover;
 }
 
 
@@ -10,7 +21,7 @@
 .menu ul{
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding:0%;
     overflow: hidden;
     background-color: #996791;
   }
@@ -18,20 +29,21 @@
     float: left;
   }
 li a {
-    display: block;
+    display:block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 li a:hover {
-  background-color: skyblue;
+  background-color: #201f61;
  }
 #name{
     font-family: 'Courier New', Courier, monospace;
     padding-top: 10%;
     text-align: center;
     padding-bottom: 2%;
+    color:blanchedalmond;
 }
 img{
     border-radius:50px;
@@ -48,4 +60,5 @@ a{
 #text1 {
     margin-left: 2%;
     text-align: center;
+    color:blanchedalmond;
 }
